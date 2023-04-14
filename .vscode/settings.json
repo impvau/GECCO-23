@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.tpp": "cpp"
+    },
+    "python.pythonPath": "/opt/conda/envs/dsr-env/bin/python"
+}

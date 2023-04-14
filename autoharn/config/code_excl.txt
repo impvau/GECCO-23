@@ -1,0 +1,4 @@
+#
+# List of approaches to exclude in post-processing. Helpful when we have run results on many datasets 
+# but want to exclude poor performing ones for better perspective on the high-performing approaches
+#

@@ -1,0 +1,22 @@
+# Copy last entry from every file to confirm sets will execute
+
+Nguyen1/1801100604/Nguyen1.TrainNoise.csv,Nguyen1/1801100604/Nguyen1.Test.csv
+Nguyen2/1801100604/Nguyen2.TrainNoise.csv,Nguyen2/1801100604/Nguyen2.Test.csv
+Nguyen3/1801100604/Nguyen3.TrainNoise.csv,Nguyen3/1801100604/Nguyen3.Test.csv
+Nguyen4/1801100604/Nguyen4.TrainNoise.csv,Nguyen4/1801100604/Nguyen4.Test.csv
+Nguyen5/1801100604/Nguyen5.TrainNoise.csv,Nguyen5/1801100604/Nguyen5.Test.csv
+Nguyen6/1801100604/Nguyen6.TrainNoise.csv,Nguyen6/1801100604/Nguyen6.Test.csv
+Nguyen7/1801100604/Nguyen7.TrainNoise.csv,Nguyen7/1801100604/Nguyen7.Test.csv
+Nguyen8/1801100604/Nguyen8.TrainNoise.csv,Nguyen8/1801100604/Nguyen8.Test.csv
+Nguyen9/1801100604/Nguyen9.TrainNoise.csv,Nguyen9/1801100604/Nguyen9.Test.csv
+Nguyen10/1801100604/Nguyen10.TrainNoise.csv,Nguyen10/1801100604/Nguyen10.Test.csv
+Nguyen11/1801100604/Nguyen11.TrainNoise.csv,Nguyen11/1801100604/Nguyen11.Test.csv
+Nguyen12/1801100604/Nguyen12.TrainNoise.csv,Nguyen12/1801100604/Nguyen12.Test.csv
+Nguyenc1/1801100604/Nguyenc1.TrainNoise.csv,Nguyenc1/1801100604/Nguyenc1.Test.csv
+Nguyenc5/1801100604/Nguyenc5.TrainNoise.csv,Nguyenc5/1801100604/Nguyenc5.Test.csv
+Nguyenc8/1801100604/Nguyenc8.TrainNoise.csv,Nguyenc8/1801100604/Nguyenc8.Test.csv
+Nguyenc10/1801100604/Nguyenc10.TrainNoise.csv,Nguyenc10/1801100604/Nguyenc10.Test.csv
+NguyenD2/1801100604/NguyenD2.TrainNoise.csv,NguyenD2/1801100604/NguyenD2.Test.csv
+NguyenD5/1801100604/NguyenD5.TrainNoise.csv,NguyenD5/1801100604/NguyenD5.Test.csv
+NguyenD8/1801100604/NguyenD8.TrainNoise.csv,NguyenD8/1801100604/NguyenD8.Test.csv
+NguyenDD8/1801100604/NguyenDD8.TrainNoise.csv,NguyenDD8/1801100604/NguyenDD8.Test.csv

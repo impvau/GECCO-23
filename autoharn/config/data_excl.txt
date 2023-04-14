@@ -1,0 +1,16 @@
+#
+# List of datasets to exclude in post-processing. Helpful when we have run results on many datasets 
+# but want to exclude poor performing ones for better perspective on the high-performing approaches
+#
+
+#1027_ESL
+
+Jin1
+Jin2
+Jin3
+Jin4
+Jin5
+Jin6
+
+Neat6
+Neat9

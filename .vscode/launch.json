@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MTBTM Execute",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autoharn/execute.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "MTBTM Preproc",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autoharn/preproc.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "MTBTM Postproc",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autoharn/postproc.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SR Bench",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/codes/srbench-min/experiment/evaluate.py",
+            "args": [
+                "-ml", "LinearRegression",
+                "-s", "1549321514",
+                "-t", "datas/yacht.csv",
+                "-T", "datas/yacht2.csv",
+                "-lt", "tempout/"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
