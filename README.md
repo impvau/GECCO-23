@@ -3,7 +3,7 @@
 
 This repository defines the code and reproduction steps for manuscript [Adaptive Depth for Analytic Continued Fraction Regression]() accpeted for presentation at GECCO 23'.
 
-The software used in this paper is archived here, while the active code base is found at [memetico]() which includes improvements, GPU capabilities (CUDA) and a testing suite.
+The software used in this paper is archived here, while the active code base is found at [memetico](https://github.com/impvau/memetico) which includes improvements, GPU capabilities (CUDA) and a testing suite. For the proposes of repoduction, refer to the old code in `codes/memetico`.
 
 Please cite as
 ```
