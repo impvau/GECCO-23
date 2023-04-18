@@ -15,14 +15,16 @@ Please cite as
     year        = {2023},
     location    = {Lisbon, Portugal},
     pages       = {TBD},
-    numpages    = {8},
-    url         = {https://doi.org/TBD},
-    doi         = {TBD},
-    acmid       = {TBD},
+    numpages    = {10},
+    url         = {https://doi.org/10.1145/3583131.3590461},
+    doi         = {10.1145/3583131.3590461},
+    acmid       = {13217.117},
+    isbn        = {979-8-4007-0119-1/23/07},
     publisher   = {ACM},
     address     = {New York, NY, USA},
 }
 ```
+
 
 # Pre-requisites
 
