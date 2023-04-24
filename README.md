@@ -25,6 +25,17 @@ Please cite as
 }
 ```
 
+The reference to example model output is provided here:
+
+| Method | Output |
+|--------|--------|
+| adm | $(0.9206*x-0.08206)+\dfrac{0.05078*x+0.1398}{-0.8215*x+0.77339}$ |
+| dsr | $x*(x + sin(x*(x**5 + x))) + x$ |
+| ite | $0.004,-1.3304 + 1.5079*np.exp(x[:,0])$ |
+| psr | $Add(Mul(Float('1.3293'), Symbol('x')), Float('0.4804'))$ |
+| pst | $x^2*(x+0.8064-\dfrac{0.01074}{(x-0.9330)})+x+0.1148$ |
+| ffx | $ -0.144+26.0*max(0,x-0.708)-8.51*abs(x)* max(0,x-0.708)-8.41*max(0,x-0.449)* max(0,x-0.708)-8.29*max(0,x-0.449)* abs(x)-8.20*x**2+6.93*abs(x)+6.72* $  ... (continues for a total of 448 characters)
+| sbp | $-703098406036.035400+0.066215*(((((((((x+1.359000)-cos(x)) aqcos((3.427000aqx))) *1.245786)+((-0.038240*(plog(cos(((x*3.754000)-cos(4.183000)))) $ ... (continues for a total of 3165 characters) |
 
 # Pre-requisites
 
