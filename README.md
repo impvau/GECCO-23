@@ -14,7 +14,7 @@ Please cite as
     series      = {GECCO '23},
     year        = {2023},
     location    = {Lisbon, Portugal},
-    pages       = {TBD},
+    pages       = {520–528},
     numpages    = {10},
     url         = {https://doi.org/10.1145/3583131.3590461},
     doi         = {10.1145/3583131.3590461},
