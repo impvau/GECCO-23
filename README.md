@@ -14,7 +14,7 @@ Please cite as
     series      = {GECCO '23},
     year        = {2023},
     location    = {Lisbon, Portugal},
-    pages       = {520–528},
+    pages       = {520--528},
     numpages    = {10},
     url         = {https://doi.org/10.1145/3583131.3590461},
     doi         = {10.1145/3583131.3590461},
@@ -49,6 +49,11 @@ Software
 
 To download containers, after install docker, use `docker pull` on the command line (e.g. Powershell, WSL, Ubuntu terminal). The following containers relate to this publication:
 
+<!---
+# Experiements for comparison of six SR Bench methods against adm with exact seeds in publication
+docker pull impvsol.azurecr.io/gecco23-e3-srbench-exact
+-->
+
 ```
 # Experiements for comparison of dynamic depth and static depths of 0, 2 and 4
 docker pull impvsol.azurecr.io/gecco23-e1-depth             
@@ -59,11 +64,8 @@ docker pull impvsol.azurecr.io/gecco23-e2-adp-types
 # Experiements for comparison of six SR Bench methods against adm with new random seeds
 docker pull impvsol.azurecr.io/gecco23-e3-srbench
 
-# Experiements for comparison of six SR Bench methods against adm with exact seeds in publication
-docker pull impvsol.azurecr.io/gecco23-e3-srbench-exact
-
 # A containerised version of memetico that facilitates step-by-step debugging for a specific program run
-docker pull impvsol.azurecr.io/gecco23-memetico
+docker pull impvsol.azurecr.io/gecco-23-memeitco
 ```
 
 ## Run Container and Access Terminal
@@ -94,6 +96,7 @@ Select to open the folder /workspaces
 ```
 
 For containers that are configured for debugging and development rather than HPC execution, there will be a .vscode file that allows you to specify the arguments to the function and press f5 to debug the code. e.g. `impvsol.azurecr.io/gecco23-e3-srbench-exact`
+
 
 For containers that are configured for HPC execution, you can can re-run the experiements and explore some code, but the software packages may be compiled and there is no real benefit simply triggering the code from a terminal.
 
@@ -157,6 +160,7 @@ pip install matplotlib scikit_posthocs Orange3
 python autoharn/postproc.py
 ```
 
+<!-- 
 ## Running Exact Replication of Exp 3:
 The exact replication of experiement three uses the files in this directory. These have been built into the `impvsol.azurecr.io/gecco23-e3-adp-srbench-exact` container, which can be downloaded to save time. This is in contrast to rebuilding from the repository root directory with `docker build -t impvsol.azurecr.io/gecc23-e3-srbench-exact .` which will use the latest versions of the software packages and may become incompatible overtime.
 
@@ -173,6 +177,7 @@ python autoharn/execute.py
 pip install matplotlib scikit_posthocs Orange3
 python autoharn/postproc.py
 ```
+-->
 
 The experiment will run against `Nyugen1` dataset for 100 iterations. You will need to re-execute after changing `/workspaces/autoharn/config/settings.py` such that `datasFile` is the name of the data file in `/workspaces/autoharn/config` that should be executed against. A file exists for each of the 21 Nguyen datasets. e.g.
 
